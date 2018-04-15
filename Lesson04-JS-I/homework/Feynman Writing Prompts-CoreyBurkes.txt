@@ -1,0 +1,40 @@
+Understanding Some JavaScript Terms
+
+First, let’s agree that letters and numbers used in programming are what’s called Data Types. There are a few and they have different names. For instance, there's this data type called Boolean but we'll get into that later. 
+
+All I need you to understand is when I talk about numbers, words, letters and the individual characters that make up a word are types of data that you'll be playing around with too make your programs. So, let's begin.
+
+Variables 
+
+Now, variables can be looked at like containers. Think of a tin can that can hold a piece of information --- those data types I told you about. 
+
+Let's call the tin can "Arthur". 
+
+When you put things in the can, those data types again, those things take on the name of the "Arthur". 
+
+Why don't we just leave the thing we put in the can the name that it is? Because you might have different data types go into the can at different times --- allowing your program to have data come and go from the can and change as you need. Something you can't do without changing it in the container first.
+
+Strings
+
+Strings are a data type like I mentioned before that mostly represent words (text) as opposed to numbers and identified in programming by quotation marks. With quotation marks, your name can be a string. My name, the car, the word "boat" and even "Arthur" is considered a string. 
+
+The numerals 1,2,3 and 4 are mostly considered integer data types --- regular numerals without quotation marks. Here's a test: if I spell out the numbers one, "two", three and four --- are those strings or integers? 
+
+Honestly, it was a trick question because strings, though often text, are properly identified in programming by quotation marks. "1234" can be a string due to the quotation marks. 1234, to a program looks like an integer. Arthur is an integer. "Arthur" is a string.
+
+Functions
+
+Things will start to get a little bit more complicated but I know you can hang in there. The best way to think of a function is to think of the radio in a car. 
+
+Part of the experience of driving a car is listening to a radio, right? The radio does an important job of tuning to the right stations, turning up or down the volume, so on and so forth while you're still driving the car. It's like a program doing its thing INSIDE the car, which is doing its thing too. A program in a program, sort of speak.
+
+Functions are smaller programs inside your main program, doing things that make the experience of your overall program run easier and faster. 
+
+If Statements
+
+These are called conditional statements. For instance, have the frame of mind of: if (something equals something), then do something --- or ELSE do something else. Else is another conditional statement as well. If statements help shift the direction of where things go in your program. If you get the number 5, then go this way. If you get something other than 5, do something else. Conditional statements are like forms in the road in your program for decision making.
+
+Boolean Values
+
+This is a data type that simplifies an operation. The end result can either be true or false. Combined with conditional statements, your program can work to not only go here or there ... but decide if what it receives is true or false.
+

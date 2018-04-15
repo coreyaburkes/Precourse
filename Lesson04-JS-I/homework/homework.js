@@ -1,22 +1,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = null ;
+const newString = "anything" ;
 
 //create a number variable, it an be any number
-const newNum = null ;
+const newNum = 1 ;
 
 //create a boolean variable
-const newBool = null ;
+const newBool = false ;
 
 //solve the following math problem
-const newSubtract = 10 - null === 5;
+const newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-const newMultiply = 10 * null === 40 ;
+const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === null ;
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -26,52 +26,56 @@ const newModulo = 21 % 5 === null ;
 //Do not change any of the function names
 
 function returnString(str) {
-  //simply return the string provided: str
+  return str;
 }
 
 function add(x, y) {
-  // x and y are numbers
-  // add x and y together and return the value
-  // code here
+  const addition = a + b;
+  return addition;
 }
 
 function subtract(x, y) {
-  // subtract y from x and return the value
-  // code here
+  const subtraction = x - y;
+  return subtraction;
 }
 
 function multiply(x, y) {
-  // multiply x by y and return the value
-  // code here
+  const multiply = x * y;
+  return multiply;
 }
 
 function divide(x, y) {
-  // divide x by y and return the value
-  // code here
+  const division = x / y;
+  return division;
 }
 
 function areEqual(x, y) {
-  // return true if x and y are the same
-  // otherwise return false
-  // code here
+  if (x === y) {
+   return true;
+}
+return false;
 }
 
 function areSameLength(str1, str2) {
-  // return true if the two strings have the same length
-  // otherwise return false
-  // code here
-}
+    if (areSameLength.length === 4){
+      return true;
+    }
+    return false;
+  }
+  
 
 function lessThanNinety(num) {
-  // return true if the function argument: num , is less than ninety
-  // otherwise return false
-  // code here
+  if (lessThanNinety < 90){
+    return true;
+  }
+  return false;
 }
 
 function greaterThanFifty(num) {
-  // return true if num is greater than fifty
-  // otherwise return false
-  // code here
+ if (greaterThanFifty > 50){
+   return true;
+ }
+ return false;
 }
 
 function getRemainder(x, y) {
